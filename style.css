@@ -33,6 +33,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: hsl(223, 47%, 23%);
+  padding:1rem 0rem;
 }
 
 .attribution { 
