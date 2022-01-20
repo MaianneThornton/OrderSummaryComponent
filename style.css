@@ -12,11 +12,34 @@ body {
   font-family: 'Red Hat Display', sans-serif;
 }
 
+/* ----- CARD ----- */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 25px;
+}
+
+.card_figure img {
+  width: 80vw;
+  height: auto;
+  border-radius: 25px;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .attribution { 
   font-size: 11px; text-align: center; 
 }
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
 
 /* ----- MEDIA QUERIES ----- */
