@@ -5,3 +5,21 @@
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
+
+/* ----- MEDIA QUERIES ----- */
+@media (max-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* ----- DESKTOP ----- */
+@media (max-width: 1440px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
