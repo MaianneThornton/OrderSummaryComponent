@@ -34,7 +34,7 @@ body {
 /* ----- CARD ----- */
 .card {
   width: 80vw;
-  height: 75vh;
+  height: auto;
   border-radius: 25px;
   background-color: hsl(0, 0%, 100%);
 }
