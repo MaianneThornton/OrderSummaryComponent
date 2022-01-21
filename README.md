@@ -14,86 +14,67 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview 👋🏾
+
+Welcome to my second Frontend Mentor Challenge!
 
 ### The challenge 😥
 
 Users should be able to:
 
+- View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
 ### Screenshot 🌇
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot.png)
 
 ### Links 👩🏾‍💻
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/MaianneThornton/OrderSummaryComponent)
+- Live Site URL: (https://fm-ordersummarycomponent.netlify.app/)
 
 ## My process 💭
+
+I started by consulting the style guide, and created a separate stylesheet. Then I marked out initial classes in the html file to be later used for styling. I also added images and icons during this step. Next I began styling the css using the mobile first design method. I styled from top to bottom, accessing each class I previously created. I then styled the desktop media query. Lastly, I added the active styles so that the card is responsive.
 
 ### Built with 👷🏾‍♀️
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned 👩🏾‍🏫
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I learned how to create border shadows which was really interesting. See code snippet below:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.btn {
+  box-shadow: 0px 20px hsl(228, 45%, 96%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+I also got to practice positioning, and sizing and selectors. See code snippet below:
+```css
+.card_footer .link_undecorated:hover {
+  color: hsl(223, 47%, 23%);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I continued to utilize the conventions previously learned while writing git commit messages. This is a very useful skill, it allows the reader to get a better idea as to what changes were made and why.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
+I also continued working on naming my classes more efficiently. I believe that this work has not been in vain, as I found it much easier this time to decide what to name classes for styling.
 ### Continued development 🔮
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In the future I plan on continuing to practice positioning elements as well as learning more effects like the active styles I used during this exercise.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I also plan on continuing to learn the best ways to phrase git commits, so that future viewers can fully understand the changes that have occurred.
 
 ### Useful resources 📖
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This helped me learn how to create box-shadows. This site spelled out the process very cleanly and I appreciate that.
+- [Resource 2](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) - This is an amazing article which helped me write better commit messages. I'd recommend it to anyone still learning this concept.
+- [Resource 3](https://9elements.com/bem-cheat-sheet/) - This is an amazing article which helped me write class names and better organize my code. I'd recommend it to everyone learning this concept.
 
 ## Author 🔎
 
@@ -102,11 +83,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - GitHub - [@MaianneThornton](GitHub.com/MaianneThornton)
 - Twitter - [@MaianneThornton](https://twitter.com/MaianneThornton)
 - LinkedIn - [@MaianneThornton](https://www.linkedin.com/in/maiannethornton/)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments 🙏🏾
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
