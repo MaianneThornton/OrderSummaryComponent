@@ -20,7 +20,7 @@ body {
 
 /* ----- CARD ----- */
 .card {
-  width: 80vw;
+  max-width: 80vw;
   height: auto;
   border-radius: 25px;
   background-color: hsl(0, 0%, 100%);
@@ -155,8 +155,6 @@ body {
     align-items: center;
     background-image: url(./images/pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 94%);
-    background-position: top;
-    background-size: contain;
     background-repeat: no-repeat;
   }
 
