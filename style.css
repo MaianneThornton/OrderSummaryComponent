@@ -100,6 +100,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 20px 8px hsl(228, 45%, 96%);
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .link_undecorated {
